@@ -4,7 +4,9 @@ This software is designed to collect data from Active Directory environments, si
 - Print Spooler
 - IP addresses for every host
 - Antivirus \ EDR installed on the machine
-- LDAP signing status.
+- LDAP signing status
+- Pre2k
+- Sessions
 
 *Coming soon: Sessions, SMB Signing, Kerberoast, ASREPRoast, Pre2K, SCCM.*
 
@@ -16,6 +18,7 @@ After collecting the data, the output file can be loaded into BloodHound/Neo4j u
 
 ## Usage
 ```
+
   █▀▄ █▀█ █ █ ▀█▀ █▀▄   █ █ █▀█ █ █ █▀█ █▀▄
   █ █ █▀█ ▀▄▀  █  █ █   █▀█ █ █ █ █ █ █ █ █
   ▀▀  ▀ ▀  ▀  ▀▀▀ ▀▀    ▀ ▀ ▀▀▀ ▀▀▀ ▀ ▀ ▀▀
@@ -28,10 +31,12 @@ Options:
   -f, --file [file]       Specify the input file name.
   -o, --output [file]     Specify the output file name.
   -t, --threads [number]  Set the number of threads.
+  -s, --sessions          Enable Sessions check.
   -wd, --webdav           Enable WebDAV check.
   -sp, --spooler          Enable Print Spooler check.
   -ip, --ips              Enable IP address check.
   -av, --antivirus        Enable antivirus check.
+  -p2, --pre2k            Enable Pre2K check.
   -ls, --ldapsigning      Enable LDAP signing check.
 ```
 
