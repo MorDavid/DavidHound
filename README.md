@@ -8,7 +8,7 @@ This software is designed to collect data from Active Directory environments, si
 - Pre2k
 - Sessions
 
-*Coming soon: Sessions, SMB Signing, Kerberoast, ASREPRoast, Pre2K, SCCM.*
+*Coming soon: SMB Signing, Kerberoast, ASREPRoast, SCCM.*
 
 The tool uses multi-threading for efficient data collection across domains, making it useful for security assessments and AD environment auditing.
 
